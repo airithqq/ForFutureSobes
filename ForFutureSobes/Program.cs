@@ -1,5 +1,7 @@
 using ForFutureSobes.Data;
+using ForFutureSobes.Services;
 using Microsoft.EntityFrameworkCore;
+using ForFutureSobes.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("ForFutureSobesConnectionString");
 
+builder.Services.AddScoped< ITaskService, ManageTaskService> ();
 builder.Services.AddDbContext<ForFutureSobesDbContext>(options =>
 options.UseMySql(
     connectionString, ServerVersion.AutoDetect(connectionString)

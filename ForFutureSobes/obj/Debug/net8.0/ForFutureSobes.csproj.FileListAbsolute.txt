@@ -112,3 +112,4 @@ C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\refin
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.pdb
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.genruntimeconfig.cache
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ref\ForFutureSobes.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.sourcelink.json
