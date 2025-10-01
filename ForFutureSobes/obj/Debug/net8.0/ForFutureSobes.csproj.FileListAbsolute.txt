@@ -113,3 +113,5 @@ C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFu
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.genruntimeconfig.cache
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ref\ForFutureSobes.dll
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.sourcelink.json
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

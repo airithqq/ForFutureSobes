@@ -2,6 +2,11 @@ using ForFutureSobes.Data;
 using ForFutureSobes.Services;
 using Microsoft.EntityFrameworkCore;
 using ForFutureSobes.Interfaces;
+using ForFutureSobes.Mapping;
+using ForFutureSobes.DTOs;
+using AutoMapper;
+using ForFutureSobes.Domain;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +17,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connectionString = builder.Configuration.GetConnectionString("ForFutureSobesConnectionString");
 
+
+var connectionString = builder.Configuration.GetConnectionString("ForFutureSobesConnectionString");
 builder.Services.AddScoped< ITaskService, ManageTaskService> ();
 builder.Services.AddDbContext<ForFutureSobesDbContext>(options =>
 options.UseMySql(
@@ -21,6 +27,10 @@ options.UseMySql(
 
 ));
 
+//builder.Services.AddAutoMapper(cfg =>
+//cfg.CreateMap<TaskEntity, CreateTaskDTO>()
+//);
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
 var app = builder.Build();

@@ -1,14 +1,18 @@
-﻿namespace ForFutureSobes.Domain
+﻿using System.Text.Json.Serialization;
+
+namespace ForFutureSobes.Domain
 {
     public class TaskEntity
     {
+        //[JsonIgnore]
+        public Theme Theme { get; set; }
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public bool IsCompleted { get; set; }
 
         public int ThemeId {  get; set; }
-
-        public Theme Theme { get; set; }
+        public string Priority { get; set; }
+       // public Theme Theme { get; set; }
     }
 }
