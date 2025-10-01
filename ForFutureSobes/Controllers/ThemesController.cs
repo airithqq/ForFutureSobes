@@ -18,7 +18,7 @@ namespace ForFutureSobes.Controllers
             {
                 _context = context;
             }
-            // 🔹 Отримати всі теми
+          
             [HttpGet]
             public async Task<IActionResult> GetAll()
             {
@@ -26,7 +26,6 @@ namespace ForFutureSobes.Controllers
                 return Ok(themes);
             }
 
-            // 🔹 Створити нову тему
             [HttpPost]
             public async Task<IActionResult> Create([FromBody] CreateThemeDTO dto)
             {
