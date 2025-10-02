@@ -1,15 +1,16 @@
 {
-  "openapi": "3.0.1",
+  "openapi": "3.0.4",
   "info": {
     "title": "ForFutureSobes",
     "version": "1.0"
   },
   "paths": {
-    "/api/v1/task/get_all_tasks": {
+    "/api/v1/task/GetAllTasks": {
       "get": {
         "tags": [
           "Tasks"
         ],
+        "summary": "Get all existing tasks",
         "responses": {
           "200": {
             "description": "OK"
@@ -17,11 +18,12 @@
         }
       }
     },
-    "/api/v1/task/get_tasks_by_theme": {
+    "/api/v1/task/GetTask": {
       "get": {
         "tags": [
           "Tasks"
         ],
+        "summary": "Get tasks by theme",
         "parameters": [
           {
             "name": "themeName",
@@ -38,11 +40,12 @@
         }
       }
     },
-    "/api/v1/task/get_tasks_by_id": {
+    "/api/v1/task/GetById": {
       "get": {
         "tags": [
           "Tasks"
         ],
+        "summary": "Get task by id",
         "parameters": [
           {
             "name": "id",
@@ -60,11 +63,12 @@
         }
       }
     },
-    "/api/v1/task/create_new_task": {
+    "/api/v1/task/CreateNewTask": {
       "post": {
         "tags": [
           "Tasks"
         ],
+        "summary": "Create new task for existing theme",
         "requestBody": {
           "content": {
             "application/json": {
@@ -91,11 +95,12 @@
         }
       }
     },
-    "/api/v1/task/update_existing_theme": {
+    "/api/v1/task/UpdateExistingTheme": {
       "put": {
         "tags": [
           "Tasks"
         ],
+        "summary": "Update existing task and theme",
         "parameters": [
           {
             "name": "id",
@@ -104,13 +109,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "themeName",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "requestBody": {
@@ -139,11 +137,12 @@
         }
       }
     },
-    "/api/v1/task/delete_all_task_at_current_theme": {
+    "/api/v1/task/DeleteTasks": {
       "delete": {
         "tags": [
           "Tasks"
         ],
+        "summary": "Delete all tasks that belong`s to current theme",
         "parameters": [
           {
             "name": "themeName",
@@ -160,21 +159,51 @@
         }
       }
     },
-    "/api/Themes": {
+    "/api/v1/theme/GetAllThemes": {
       "get": {
         "tags": [
           "Themes"
         ],
+        "summary": "Get all existing themes",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Theme"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Theme"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Theme"
+                  }
+                }
+              }
+            }
           }
         }
-      },
+      }
+    },
+    "/api/v1/theme/CreateNewTheme": {
       "post": {
         "tags": [
           "Themes"
         ],
+        "summary": "Create new unic theme",
         "requestBody": {
           "content": {
             "application/json": {
@@ -194,6 +223,28 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/theme/Delete": {
+      "delete": {
+        "tags": [
+          "Themes"
+        ],
+        "summary": "Delete theme",
+        "parameters": [
+          {
+            "name": "themeName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -234,6 +285,59 @@
         "properties": {
           "name": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TaskEntity": {
+        "type": "object",
+        "properties": {
+          "theme": {
+            "$ref": "#/components/schemas/Theme"
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "isCompleted": {
+            "type": "boolean"
+          },
+          "themeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "priority": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Theme": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "tasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TaskEntity"
+            },
             "nullable": true
           }
         },

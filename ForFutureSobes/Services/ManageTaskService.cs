@@ -5,78 +5,54 @@ using ForFutureSobes.Data;
 using ForFutureSobes.Domain;
 using AutoMapper;
 using ForFutureSobes.DTOs;
+using ForFutureSobes.Repository;
+using System.Threading.Tasks;
+using Microsoft.OpenApi.Extensions;
 
 namespace ForFutureSobes.Services
 {
     public class ManageTaskService : ITaskService
     {
-        private readonly ForFutureSobesDbContext _context;
-        private readonly IMapper _mapper;
-
-        public ManageTaskService(ForFutureSobesDbContext context, IMapper mapper)
-        {
-            _context = context;
-            _mapper = mapper;
+        private readonly IMapper mapper;
+        private readonly ITaskRepository taskRepository;
        
-        }
-        public async Task<TaskEntity> CreateTaskAsync(TaskEntity task, string themeName)
+        public ManageTaskService( IMapper mapper, ITaskRepository taskRepository)
         {
-            var theme = await _context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
-            if (theme == null) return null;
-            
-            task.ThemeId = theme.Id;
-
-            _context.TaskEntities.Add(task);
-            await _context.SaveChangesAsync();
-            return task;
+            this.mapper = mapper;
+            this.taskRepository = taskRepository;
         }
+        public async Task<TaskEntity> CreateTaskAsync(TaskEntity task, string themeName) => await taskRepository.CreateAsync(task, themeName);
+        
+        public async Task<TaskEntity> GetTaskByIdAsync(int id) => await taskRepository.GetByIdAsync(id);
+        
 
-        public async Task<TaskEntity> GetTaskByIdAsync(int id)
-        {
-            return await _context.TaskEntities
-                .Include(x => x.Theme)
-                .FirstOrDefaultAsync(x => x.Id == id );
-        }
-
-        public async Task<List<TaskEntity>> GetTasksByThemeAsync(string themeName)
-        {
-            return await _context.TaskEntities
-                 .Include(x => x.Theme)
-                 .Where(x => x.Theme.Name == themeName)
-                 .ToListAsync();
-        }
+        public async Task<List<TaskEntity>> GetTasksByThemeAsync(string themeName) => await taskRepository.GetByThemeAsync(themeName);
+   
         public async Task<bool> DeleteTaskAsync(string themeName)
         {
             var task = await GetTasksByThemeAsync(themeName);
-            foreach (var taskEntity in task) {
-                _context.TaskEntities.Remove(taskEntity);
-            }
-            await _context.SaveChangesAsync();
-            return true;
+            return await taskRepository.DeleteByThemeAsync(task);
         }
-        public async Task<TaskEntity> UpdateTaskAsync(int id, TaskEntity updatedTask, string themeName)
+        public async Task<TaskEntity> UpdateTaskAsync(int id, TaskEntity updatedTask, string updatedTheme)
         {
-            var task = await _context.TaskEntities.FirstOrDefaultAsync(x => x.Id == id);
-            if (task == null) return null;
-            var theme = await _context.Themes.FirstOrDefaultAsync(t => t.Name == themeName);
-            if (theme == null) return null;
-
+            var task = await taskRepository.GetByIdAsync(id);
+            
+            task.Title = updatedTask.Title;
             task.Description = updatedTask.Description;
             task.Priority = updatedTask.Priority;
-            task.Title = updatedTask.Title;
             task.IsCompleted = updatedTask.IsCompleted;
+            updatedTask.Id = id;
 
-            await _context.SaveChangesAsync();
-            return task;
+            task.Theme.Name = updatedTheme;
+
+            await taskRepository.SaveAsync();
+            return updatedTask;
         }
 
         public async Task<List<ResponseDTO>> GetAllTasksAsync()
         {
-            var tasks = await _context.TaskEntities
-            .Include(t => t.Theme)
-            .ToListAsync();
-
-            return _mapper.Map<List<ResponseDTO>>(tasks);
+            var tasks = await taskRepository.GetAllAsync();
+            return mapper.Map<List<ResponseDTO>>(tasks);
         }
     }
 }
