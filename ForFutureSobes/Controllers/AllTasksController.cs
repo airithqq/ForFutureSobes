@@ -23,62 +23,81 @@ namespace ForFutureSobes.Controllers
             _mapper = mapper;
         }
 
-        // read all tasks
-        [HttpGet("get_all_tasks")]
+
+        /// <summary>
+        /// Get all existing tasks
+        /// </summary>
+
+        [HttpGet("GetAllTasks")]
         public async Task<IActionResult> GetAll()
         {
-          
+
             var tasks = await _taskService.GetAllTasksAsync();
-            var response = _mapper.Map<List<ResponseDTO>>(tasks);
+            var response = _mapper.Map<List<ResponseTaskDTO>>(tasks);
             return Ok(response);
 
         }
 
-   
-        [HttpGet("get_tasks_by_theme")]
+        /// <summary>
+        /// Get tasks by theme
+        /// </summary>
+        [HttpGet("GetTask")]
         public async Task<IActionResult> GetByTheme(string themeName)
         {
             var tasks = await _taskService.GetTasksByThemeAsync(themeName);
-            var response = _mapper.Map<List<ResponseDTO>>(tasks);
+            var response = _mapper.Map<List<ResponseTaskDTO>>(tasks);
             return Ok(response);
         }
 
-        
-        [HttpGet("get_tasks_by_id")]
+        /// <summary>
+        /// Get task by id
+        /// </summary>
+        [HttpGet("GetById")]
         public async Task<IActionResult> GetById(int id)
         {
-            
+
             var task = await _taskService.GetTaskByIdAsync(id);
             if (task == null) return NotFound();
-            var response = _mapper.Map<ResponseDTO>(task);
+            var response = _mapper.Map<ResponseTaskDTO>(task);
             return Ok(response);
         }
 
-       
-        [HttpPost("create_new_task")]
+        /// <summary>
+        /// Create new task for existing theme
+        /// </summary>
+
+        [HttpPost("CreateNewTask")]
         public async Task<IActionResult> Create([FromBody] CreateTaskDTO dto)
         {
             var task = _mapper.Map<TaskEntity>(dto);
-            
+
             var created = await _taskService.CreateTaskAsync(task, dto.ThemeName);
             if (created == null) return BadRequest("Invalid theme");
-            var response = _mapper.Map<ResponseDTO>(created);
-        
-            return CreatedAtAction(nameof(GetById), new { id = response.Id, themeName = dto.ThemeName, isCompleted = response.IsCompleted}, response);
-            
+            var response = _mapper.Map<ResponseTaskDTO>(created);
+
+            return CreatedAtAction(nameof(GetById), new { id = response.Id, themeName = dto.ThemeName, isCompleted = response.IsCompleted }, response);
+
         }
 
-        [HttpPut("update_existing_theme")]
-        public async Task<IActionResult> Update(int id, string themeName, [FromBody] CreateTaskDTO dto)
+        /// <summary>
+        /// Update existing task and theme
+        /// </summary>
+        [HttpPut("UpdateExistingTheme")]
+        public async Task<IActionResult> Update(int id, [FromBody] CreateTaskDTO dto)
         {
             var updatedTask = _mapper.Map<TaskEntity>(dto);
-            var task = await _taskService.UpdateTaskAsync(id, updatedTask, themeName);
+            var task = await _taskService.UpdateTaskAsync(id, updatedTask, dto.ThemeName);
+
             if (task == null) return NotFound();
-            var response = _mapper.Map<ResponseDTO>(task);
+
+            var response = _mapper.Map<ResponseTaskDTO>(task);
             return Ok(response);
         }
 
-        [HttpDelete("delete_all_task_at_current_theme")]
+        /// <summary>
+        /// Delete all tasks that belong`s to current theme
+        /// </summary>
+        [HttpDelete("DeleteTasks")]
         public async Task<IActionResult> Delete(string themeName)
         {
             var success = await _taskService.DeleteTaskAsync(themeName);
