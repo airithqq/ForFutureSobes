@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Gemini/generate": {
+      "post": {
+        "tags": [
+          "Gemini"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateTextRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateTextRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateTextRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/v1/task/GetAllTasks": {
       "get": {
         "tags": [
@@ -284,6 +315,16 @@
         "type": "object",
         "properties": {
           "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenerateTextRequest": {
+        "type": "object",
+        "properties": {
+          "prompt": {
             "type": "string",
             "nullable": true
           }

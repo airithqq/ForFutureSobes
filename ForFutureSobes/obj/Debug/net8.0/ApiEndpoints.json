@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ForFutureSobes.Controllers.GeminiController",
+    "Method": "GenerateText",
+    "RelativePath": "api/Gemini/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ForFutureSobes.DTOs.GeminiDTOs\u002BGenerateTextRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ForFutureSobes.Controllers.TasksController",
     "Method": "Create",
     "RelativePath": "api/v1/task/CreateNewTask",

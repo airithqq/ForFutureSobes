@@ -5,9 +5,9 @@ namespace ForFutureSobes.Interfaces
 {
     public interface IThemeRepository
     {
-        Task<Theme?> GetByNameAsync(string themeName);
-        Task<List<Theme?>> GetAllThemesAsync();
-        Task<bool> CreateThemeAsync([FromBody] CreateThemeDTO dto);
-        Task DeleteThemeAsync(string themeName);
+        Task<Theme?> GetByName(string themeName);
+        Task<List<Theme?>> GetAllThemes();
+        Task<bool> CreateTheme([FromBody] CreateThemeDTO dto);
+        Task DeleteTheme(string themeName);
     }
 }

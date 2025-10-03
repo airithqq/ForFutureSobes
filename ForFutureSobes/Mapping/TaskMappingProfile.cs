@@ -9,7 +9,7 @@ namespace ForFutureSobes.Mapping
     {
         public TaskMappingProfile() {
 
-            CreateMap<TaskEntity, ResponseDTO>()
+            CreateMap<TaskEntity, ResponseTaskDTO>()
                 .ForMember(dest => dest.ThemeName,
                 opt => opt.MapFrom(src => src.Theme.Name));
             CreateMap<CreateTaskDTO, TaskEntity>();

@@ -19,13 +19,13 @@ namespace ForFutureSobes.Repository
               this.context = context;
         }
 
-        public async Task<Theme?> GetByNameAsync(string themeName) => await context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
+        public  Task<Theme?> GetByName(string themeName) =>  context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
 
 
-        public async Task<List<Theme?>> GetAllThemesAsync() => await context.Themes.ToListAsync();
+        public async Task<List<Theme?>> GetAllThemes() => await context.Themes.ToListAsync();
 
         
-        public async Task<bool> CreateThemeAsync([FromBody] CreateThemeDTO dto)
+        public async Task<bool> CreateTheme([FromBody] CreateThemeDTO dto)
         {
             var exists =  await context.Themes.AnyAsync(x => x.Name == dto.Name);
             var theme = new Theme { Name = dto.Name };
@@ -35,7 +35,7 @@ namespace ForFutureSobes.Repository
 
         }
 
-        public async Task DeleteThemeAsync(string themeName)
+        public async Task DeleteTheme(string themeName)
         {
             var themeToDelete = context.Themes
                 .FirstOrDefault(x => x.Name == themeName);

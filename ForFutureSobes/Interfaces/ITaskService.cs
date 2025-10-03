@@ -13,7 +13,7 @@ namespace ForFutureSobes.Interfaces
         Task<TaskEntity> CreateTaskAsync(TaskEntity task, string themeName);
         Task<TaskEntity> UpdateTaskAsync( int id, TaskEntity updatedTask, string updatedTheme);
         Task<bool> DeleteTaskAsync(string themeName);
-        Task<List<ResponseDTO>> GetAllTasksAsync();
+        Task<List<ResponseTaskDTO>> GetAllTasksAsync();
       
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ForFutureSobes.DTOs
 {
-    public class ResponseDTO
+    public class ResponseTaskDTO
     {
         public int Id { get; set; }
         public string Title { get; set; }

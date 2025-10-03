@@ -15,7 +15,7 @@ namespace ForFutureSobes.Repository
             this.context = context;
         }
 
-        public async Task<TaskEntity?> CreateAsync(TaskEntity task, string themeName)
+        public async Task<TaskEntity?> Create(TaskEntity task, string themeName)
         {
             var theme = await context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
 
@@ -25,7 +25,7 @@ namespace ForFutureSobes.Repository
             return task;
         }
 
-        public async Task<bool> DeleteByThemeAsync(List<TaskEntity> tasks)
+        public async Task<bool> DeleteByTheme(List<TaskEntity> tasks)
         {
             
             context.TaskEntities.RemoveRange(tasks);
@@ -33,39 +33,31 @@ namespace ForFutureSobes.Repository
             return true;
         }
 
-        public async Task<List<TaskEntity>> GetAllAsync()
-        {
-            return await context.TaskEntities
-                .Include(x=>x.Theme)
-                .ToListAsync();
-        }
+        public Task<List<TaskEntity>> GetAll() =>  context.TaskEntities
+                                                              .Include(x=>x.Theme)
+                                                              .ToListAsync();
+        
 
-        public async Task<TaskEntity?> GetByIdAsync(int id)
-        {
-            return await context.TaskEntities
-                .Include(x => x.Theme)
-                .FirstOrDefaultAsync(x=>x.Id == id);
-        }
+        public  Task<TaskEntity?> GetById(int id) =>  context.TaskEntities
+                                                                .Include(x => x.Theme)
+                                                                .FirstOrDefaultAsync(x => x.Id == id);
 
-        public async Task<List<TaskEntity>> GetByThemeAsync(string themeName)
-        {
-            return await context.TaskEntities
-                .Include(x => x.Theme)
-                .Where(x => x.Theme.Name == themeName)
-                .ToListAsync();
-        }
 
-        public async Task<TaskEntity?> UpdateAsyncTask(TaskEntity task)
+        public  Task<List<TaskEntity>> GetByTheme(string themeName) =>  context.TaskEntities
+                                                                          .Include(x => x.Theme)
+                                                                          .Where(x => x.Theme.Name == themeName)
+                                                                          .ToListAsync();
+        
+
+        public async Task<TaskEntity?> Update(TaskEntity task)
         {
             context.TaskEntities.Update(task);
-            await context.SaveChangesAsync();
+            context.SaveChanges();
             return task;
 
         }
 
-      
-
-        public async Task SaveAsync() => await context.SaveChangesAsync();
+        public async Task Save() =>  context.SaveChanges();
         
 
     }
