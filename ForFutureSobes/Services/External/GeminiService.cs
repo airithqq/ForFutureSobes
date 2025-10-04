@@ -38,7 +38,7 @@ namespace ForFutureSobes.Services.External
         }
             };
 
-            var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyAD_rpycjNMUYEtLISixTZYRGTXo-yslRs";
+            var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=";
             var response = await _httpClient.PostAsJsonAsync(url, request, cancellationToken);
             var content = await response.Content.ReadAsStringAsync(cancellationToken);
 
