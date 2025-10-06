@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ForFutureSobes.Controllers.GeminiApiController",
+    "Method": "Ask",
+    "RelativePath": "api/v1/geminiGeminiApi/ask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ForFutureSobes.Controllers.TasksController",
     "Method": "Create",
     "RelativePath": "api/v1/task/CreateNewTask",

@@ -8,24 +8,24 @@ namespace ForFutureSobes.Services
 {
     public class ThemeService : IThemeService
     {
-        private readonly IThemeRepository themeRepository;
+        private readonly IThemeRepository _themeRepository;
 
         public ThemeService(IThemeRepository themeRepository)
         {
-                this.themeRepository = themeRepository;
+                _themeRepository = themeRepository;
         }
 
 
 
-        public async Task<List<Theme>> GetAllThemesAsync() => await themeRepository.GetAllThemesAsync();
+        public async Task<List<Theme>> GetAllThemesAsync() => await _themeRepository.GetAllThemesAsync();
 
       
         public async Task<bool> CreateThemeAsync([FromBody] CreateThemeDTO dto)
         {
           
-            return await themeRepository.CreateThemeAsync(dto);
+            return await _themeRepository.CreateThemeAsync(dto);
         }
 
-        public async Task DeleteThemeAsync(string themeName) => await themeRepository.DeleteThemeAsync(themeName);
+        public async Task DeleteThemeAsync(string themeName) => await _themeRepository.DeleteThemeAsync(themeName);
     }
 }

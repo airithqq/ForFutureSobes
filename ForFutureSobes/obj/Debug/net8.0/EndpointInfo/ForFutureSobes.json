@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/v1/geminiGeminiApi/ask": {
+      "post": {
+        "tags": [
+          "GeminiApi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/v1/task/GetAllTasks": {
       "get": {
         "tags": [

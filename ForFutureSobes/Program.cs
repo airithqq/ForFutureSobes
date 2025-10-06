@@ -32,16 +32,21 @@ var connectionString = builder.Configuration.GetConnectionString("ForFutureSobes
 builder.Services.AddScoped< ITaskRepository, TaskRepository>();
 builder.Services.AddScoped< ITaskService, ManageTaskService> ();
 builder.Services.AddScoped<IThemeRepository, ThemeRepository>();
+builder.Services.AddHttpClient<IGeminiService, GeminiService>();
+builder.Services.AddScoped<IGeminiService, GeminiService>();
+builder.Services.AddScoped<IGeminiConfig, GeminiConfig>();
 builder.Services.AddScoped<IThemeService, ThemeService>();
+
+builder.Services.AddSingleton(sp =>
+    builder.Configuration.GetSection("Gemini").Get<GeminiSettings>());
+
 builder.Services.AddDbContext<ForFutureSobesDbContext>(options =>
 options.UseMySql(
     connectionString, ServerVersion.AutoDetect(connectionString)
 
 ));
 
-//builder.Services.AddAutoMapper(cfg =>
-//cfg.CreateMap<TaskEntity, CreateTaskDTO>()
-//);
+
 builder.Services.AddAutoMapper(typeof(TaskMappingProfile).Assembly);
 
 

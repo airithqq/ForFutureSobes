@@ -14,17 +14,17 @@ namespace ForFutureSobes.Controllers
     public class ThemesController : ControllerBase
     {
 
-            private readonly IThemeService themeService;
+            private readonly IThemeService _themeService;
             public ThemesController(IThemeService themeService)
             {
-                this.themeService = themeService;
+                _themeService = themeService;
             }
 
         /// <summary>
         /// Get all existing themes
         /// </summary>
         [HttpGet("GetAllThemes")]
-            public async Task<List<Theme>> GetAllThemes() => await themeService.GetAllThemesAsync();
+            public async Task<List<Theme>> GetAllThemes() => await _themeService.GetAllThemesAsync();
 
 
         /// <summary>
@@ -38,18 +38,18 @@ namespace ForFutureSobes.Controllers
                 return BadRequest("Theme name is required");
             var theme = new Theme { Name = dto.Name };
 
-            if (await themeService.CreateThemeAsync(dto))
+            if (await _themeService.CreateThemeAsync(dto))
             {
                 return Conflict("Theme already exists");
             }else
-                return CreatedAtAction(nameof(themeService.GetAllThemesAsync), new { id = theme.Id }, theme);
+                return CreatedAtAction(nameof(_themeService.GetAllThemesAsync), new { id = theme.Id }, theme);
         }
 
         /// <summary>
         /// Delete theme
         /// </summary>
         [HttpDelete("Delete")]
-        public async Task DeleteAsync(string themeName) => await themeService.DeleteThemeAsync(themeName);
+        public async Task DeleteAsync(string themeName) => await _themeService.DeleteThemeAsync(themeName);
         
     }
 }
