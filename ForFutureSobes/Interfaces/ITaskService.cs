@@ -11,7 +11,7 @@ namespace ForFutureSobes.Interfaces
         Task<List<TaskEntity>> GetTasksByThemeAsync(string themeName);
         Task<TaskEntity> GetTaskByIdAsync(int id);
         Task<TaskEntity> CreateTaskAsync(TaskEntity task, string themeName);
-        Task<TaskEntity> UpdateTaskAsync(int id, TaskEntity updatedTask, string themeName);
+        Task<TaskEntity> UpdateTaskAsync( int id, TaskEntity updatedTask, string updatedTheme);
         Task<bool> DeleteTaskAsync(string themeName);
         Task<List<ResponseDTO>> GetAllTasksAsync();
       

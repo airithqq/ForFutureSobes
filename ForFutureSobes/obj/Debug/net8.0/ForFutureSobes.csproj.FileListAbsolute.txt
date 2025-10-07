@@ -115,3 +115,8 @@ C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ref\F
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.sourcelink.json
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\ForFutureSobes.xml
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\obj\Debug\net8.0\ForFutureSobes.xml
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

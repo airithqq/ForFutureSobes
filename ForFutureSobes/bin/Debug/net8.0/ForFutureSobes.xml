@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForFutureSobes</name>
+    </assembly>
+    <members>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetAll">
+            <summary>
+            Get all existing tasks
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetByTheme(System.String)">
+            <summary>
+            Get tasks by theme
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetById(System.Int32)">
+            <summary>
+            Get task by id
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.Create(ForFutureSobes.DTOs.CreateTaskDTO)">
+            <summary>
+            Create new task for existing theme
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.Update(System.Int32,ForFutureSobes.DTOs.CreateTaskDTO)">
+            <summary>
+            Update existing task and theme
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.Delete(System.String)">
+            <summary>
+            Delete all tasks that belong`s to current theme
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.ThemesController.GetAllThemes">
+            <summary>
+            Get all existing themes
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.ThemesController.CreateTheme(ForFutureSobes.DTOs.CreateThemeDTO)">
+            <summary>
+            Create new unic theme
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.ThemesController.DeleteAsync(System.String)">
+            <summary>
+            Delete theme
+            </summary>
+        </member>
+        <member name="T:ForFutureSobes.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForFutureSobes.Migrations.AddThemeModels">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.AddThemeModels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.AddThemeModels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.AddThemeModels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForFutureSobes.Migrations.AddNewModels_v2">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.AddNewModels_v2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.AddNewModels_v2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.AddNewModels_v2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForFutureSobes.Migrations.RemoveOldThemeTables">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.RemoveOldThemeTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.RemoveOldThemeTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.RemoveOldThemeTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForFutureSobes.Migrations.addedPriorityTo_TaskEntity_Model">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.addedPriorityTo_TaskEntity_Model.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.addedPriorityTo_TaskEntity_Model.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForFutureSobes.Migrations.addedPriorityTo_TaskEntity_Model.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
