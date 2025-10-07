@@ -167,5 +167,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ForFutureSobes.Controllers.ThemesController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/theme/GetThemeById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

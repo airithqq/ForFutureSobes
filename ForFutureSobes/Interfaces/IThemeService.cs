@@ -6,8 +6,9 @@ namespace ForFutureSobes.Interfaces
 {
     public interface IThemeService
     {
-        public Task<List<Theme>> GetAllThemesAsync();
-        public Task<bool> CreateThemeAsync([FromBody] CreateThemeDTO dto);
+        Task<List<Theme>> GetAllThemesAsync();
+        Task<Theme> CreateThemeAsync([FromBody] CreateThemeDTO dto);
         Task DeleteThemeAsync(string themeName);
+        Task<Theme> GetByIdAsync(int id);
     }
 }

@@ -229,6 +229,28 @@
         }
       }
     },
+    "/api/v1/theme/GetThemeById": {
+      "get": {
+        "tags": [
+          "Themes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/v1/theme/CreateNewTheme": {
       "post": {
         "tags": [

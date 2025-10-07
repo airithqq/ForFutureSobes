@@ -9,18 +9,17 @@ using ForFutureSobes.Domain;
 using ForFutureSobes.Repository;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using FluentValidation.AspNetCore;
+using ForFutureSobes.Validator;
+using FluentValidation;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    // Шлях до XML з коментарями
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     options.IncludeXmlComments(xmlPath);
@@ -33,9 +32,14 @@ builder.Services.AddScoped< ITaskRepository, TaskRepository>();
 builder.Services.AddScoped< ITaskService, ManageTaskService> ();
 builder.Services.AddScoped<IThemeRepository, ThemeRepository>();
 builder.Services.AddHttpClient<IGeminiService, GeminiService>();
-builder.Services.AddScoped<IGeminiService, GeminiService>();
 builder.Services.AddScoped<IGeminiConfig, GeminiConfig>();
 builder.Services.AddScoped<IThemeService, ThemeService>();
+builder.Services.AddFluentValidationAutoValidation();
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateTaskDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateThemeDtoValidator>();
+
 
 builder.Services.AddSingleton(sp =>
     builder.Configuration.GetSection("Gemini").Get<GeminiSettings>());
@@ -52,7 +56,6 @@ builder.Services.AddAutoMapper(typeof(TaskMappingProfile).Assembly);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

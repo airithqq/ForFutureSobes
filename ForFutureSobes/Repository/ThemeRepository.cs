@@ -11,38 +11,42 @@ namespace ForFutureSobes.Repository
 {
     public class ThemeRepository : IThemeRepository
     {
-        private readonly ForFutureSobesDbContext context;
-
+        private readonly ForFutureSobesDbContext _context;
 
         public ThemeRepository(ForFutureSobesDbContext context)
         {
-              this.context = context;
+              _context = context;
         }
 
-        public async Task<Theme?> GetByNameAsync(string themeName) => await context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
+       // public async Task<Theme?> GetByNameAsync(string themeName) => await _context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
 
+        public async Task<List<Theme?>> GetAllThemesAsync() => await _context.Themes.ToListAsync();
 
-        public async Task<List<Theme?>> GetAllThemesAsync() => await context.Themes.ToListAsync();
-
-        
-        public async Task<bool> CreateThemeAsync([FromBody] CreateThemeDTO dto)
+        public async Task<Theme?> GetByIdAsync(int id)
         {
-            var exists =  await context.Themes.AnyAsync(x => x.Name == dto.Name);
+            return await _context.Themes
+                .AsNoTracking()
+                .FirstOrDefaultAsync(t => t.Id == id);
+        }
+
+        public async Task<Theme> CreateThemeAsync([FromBody] CreateThemeDTO dto)
+        {
+            var exists =  await _context.Themes.AnyAsync(x => x.Name == dto.Name);
             var theme = new Theme { Name = dto.Name };
-            context.Themes.Add(theme);
-            await context.SaveChangesAsync();
-            return exists;
+            _context.Themes.Add(theme);
+            await _context.SaveChangesAsync();
+            return theme;
 
         }
 
         public async Task DeleteThemeAsync(string themeName)
         {
-            var themeToDelete = context.Themes
+            var themeToDelete = _context.Themes
                 .FirstOrDefault(x => x.Name == themeName);
             if(themeToDelete != null)
             {
-                context.Themes.Remove(themeToDelete);
-                await context.SaveChangesAsync();
+                _context.Themes.Remove(themeToDelete);
+                await _context.SaveChangesAsync();
             }
             
         }

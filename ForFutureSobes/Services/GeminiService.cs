@@ -22,7 +22,7 @@ namespace ForFutureSobes.Services
         public async Task<string> SendAsync(string prompt)
         {
             
-            _logger.LogInformation("Gemini request URI: {Uri}", _config.GetUrl());
+            _logger.LogInformation("Gemini request URL: {Url}", _config.GetUrl());
 
             var payload = new
             {

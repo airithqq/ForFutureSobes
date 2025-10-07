@@ -20,6 +20,7 @@ namespace ForFutureSobes.Controllers
         public TasksController(ITaskService taskService, IMapper mapper)
         {
             _taskService = taskService;
+            _taskService = taskService;
             _mapper = mapper;
         }
 

@@ -25,6 +25,5 @@ namespace ForFutureSobes.Controllers
             var reply = await _gemini.SendAsync(request);
             return Ok(new { reply });
         }
-
     }
 }
