@@ -5,9 +5,9 @@ using ForFutureSobes.DTOs;
 
 namespace ForFutureSobes.Mapping
 {
-    public class MappingProfile : Profile
+    public class TaskMappingProfile : Profile
     {
-        public MappingProfile() {
+        public TaskMappingProfile() {
 
             CreateMap<TaskEntity, ResponseDTO>()
                 .ForMember(dest => dest.ThemeName,

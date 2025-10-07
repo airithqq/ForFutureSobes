@@ -4,7 +4,6 @@ namespace ForFutureSobes.Domain
 {
     public class TaskEntity
     {
-        //[JsonIgnore]
         public Theme Theme { get; set; }
         public int Id { get; set; }
         public string Title { get; set; }
@@ -13,6 +12,6 @@ namespace ForFutureSobes.Domain
 
         public int ThemeId {  get; set; }
         public string Priority { get; set; }
-       // public Theme Theme { get; set; }
+      
     }
 }

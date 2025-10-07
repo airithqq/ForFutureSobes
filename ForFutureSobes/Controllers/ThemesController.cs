@@ -1,47 +1,64 @@
-﻿using ForFutureSobes.Data;
-using ForFutureSobes.Domain;
+﻿using ForFutureSobes.Domain;
 using ForFutureSobes.DTOs;
-using Microsoft.AspNetCore.Http;
+using ForFutureSobes.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace ForFutureSobes.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/v1/theme")]
     public class ThemesController : ControllerBase
     {
 
-            private readonly ForFutureSobesDbContext _context;
+        private readonly IThemeService _themeService;
+        public ThemesController(IThemeService themeService)
+        {
+            _themeService = themeService;
+        }
 
-            public ThemesController(ForFutureSobesDbContext context)
-            {
-                _context = context;
-            }
-          
-            [HttpGet]
-            public async Task<IActionResult> GetAll()
-            {
-                var themes = await _context.Themes.ToListAsync();
-                return Ok(themes);
-            }
+        /// <summary>
+        /// Get all existing themes
+        /// </summary>
+        [HttpGet("GetAllThemes")]
+        public async Task<List<Theme>> GetAllThemes() => await _themeService.GetAllThemesAsync();
 
-            [HttpPost]
-            public async Task<IActionResult> Create([FromBody] CreateThemeDTO dto)
-            {
-                if (string.IsNullOrWhiteSpace(dto.Name))
-                    return BadRequest("Theme name is required");
 
-                var exists = await _context.Themes.AnyAsync(t => t.Name == dto.Name);
-                if (exists)
-                    return Conflict("Theme already exists");
+        [HttpGet("GetThemeById")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var theme = await _themeService.GetByIdAsync(id);
+            if (theme == null)
+                return NotFound($"Theme with id {id} not found.");
 
-                var theme = new Theme { Name = dto.Name };
-                _context.Themes.Add(theme);
-                await _context.SaveChangesAsync();
+            return Ok(theme);
+        }
+   
+        /// <summary>
+        /// Create new unic theme
+        /// </summary>
+        [HttpPost("CreateNewTheme")]
+        public async Task<IActionResult> CreateTheme([FromBody] CreateThemeDTO dto)
+        {
+            if (dto == null)
+                return BadRequest("Request body cannot be empty");
 
-                return CreatedAtAction(nameof(GetAll), new { id = theme.Id }, theme);
-            }
+            if (string.IsNullOrWhiteSpace(dto.Name))
+                return BadRequest("Theme name is required");
+
+            var theme = await _themeService.CreateThemeAsync(dto);
+
+            if (theme == null)
+                return StatusCode(500, "Failed to create theme.");
+
+            return CreatedAtAction(nameof(GetById), new { id = theme.Id }, theme);
+        }
+
+            /// <summary>
+            /// Delete theme
+            /// </summary>
+            [HttpDelete("Delete")]
+            public async Task DeleteAsync(string themeName) => await _themeService.DeleteThemeAsync(themeName);
+
         
     }
 }
