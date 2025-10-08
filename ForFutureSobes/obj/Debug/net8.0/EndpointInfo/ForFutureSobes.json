@@ -11,25 +11,16 @@
           "GeminiApi"
         ],
         "summary": "Ask Gemini about task that not completed",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "string"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "string"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "type": "string"
-              }
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -85,6 +76,46 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/task/GetUncompletedTasks": {
+      "get": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Get all uncompleted tasks by user",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/task/GetTaskByPriority": {
+      "get": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Get task`s by priorities, available via the drop-down menu",
+        "parameters": [
+          {
+            "name": "priority",
+            "in": "query",
+            "schema": {
+              "enum": [
+                "Low",
+                "Medium",
+                "High"
+              ],
+              "type": "string"
             }
           }
         ],
@@ -191,46 +222,6 @@
         }
       }
     },
-    "/api/v1/task/GetUncompletedTasks": {
-      "get": {
-        "tags": [
-          "Tasks"
-        ],
-        "summary": "Get all uncompleted tasks by user",
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/v1/task/GetTaskByPriority": {
-      "get": {
-        "tags": [
-          "Tasks"
-        ],
-        "summary": "Get task`s by priorities, available via the drop-down menu",
-        "parameters": [
-          {
-            "name": "priority",
-            "in": "query",
-            "schema": {
-              "enum": [
-                "Low",
-                "Medium",
-                "High"
-              ],
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/v1/theme/GetAllThemes": {
       "get": {
         "tags": [
@@ -275,6 +266,7 @@
         "tags": [
           "Themes"
         ],
+        "summary": "Get theme by id",
         "parameters": [
           {
             "name": "id",

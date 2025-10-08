@@ -53,6 +53,25 @@ namespace ForFutureSobes.Controllers
             var response = _mapper.Map<ResponseDTO>(task);
             return Ok(response);
         }
+        /// <summary>
+        /// Get all uncompleted tasks by user
+        /// </summary>
+        [HttpGet("GetUncompletedTasks")]
+        public async Task<IActionResult> GetAllUncompleted()
+        {
+            var result = await _taskService.GetAllUncompletedTasksAsync();
+            if (result == null) return NotFound();
+            return Ok(result);
+        }
+        /// <summary>
+        /// Get task`s by priorities, available via the drop-down menu
+        /// </summary>
+        [HttpGet("GetTaskByPriority")]
+        public async Task<IActionResult> GetByPriority([FromQuery] string priority)
+        {
+            var tasks = await _taskService.GetTasksByPrority(priority);
+            return Ok(tasks);
+        }
 
         /// <summary>
         /// Create new task for existing theme
@@ -97,25 +116,7 @@ namespace ForFutureSobes.Controllers
             return Ok();
         }
 
-        /// <summary>
-        /// Get all uncompleted tasks by user
-        /// </summary>
-        [HttpGet("GetUncompletedTasks")]
-        public async Task<IActionResult> GetAllUncompleted()
-        {
-            var result = await _taskService.GetAllUncompletedTasksAsync();
-            if (result == null) return NotFound();
-            return Ok(result);
-        }
-        /// <summary>
-        /// Get task`s by priorities, available via the drop-down menu
-        /// </summary>
-        [HttpGet("GetTaskByPriority")]
-        public async Task<IActionResult> GetByPriority([FromQuery] string priority)
-        {
-            var tasks = await _taskService.GetTasksByPrority(priority);
-            return Ok(tasks);
-        }
+      
 
     }
 }
