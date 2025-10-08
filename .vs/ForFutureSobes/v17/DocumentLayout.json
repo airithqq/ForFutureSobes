@@ -7,28 +7,72 @@
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\controllers\\alltaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\controllers\\geminiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\controllers\\geminiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\controllers\\themescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\controllers\\themescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\validator\\createtaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\validator\\createtaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\enum\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\enum\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\geminisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\geminisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\dtos\\createthemedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\dtos\\createthemedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\ithemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\ithemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\filters\\priorityparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\filters\\priorityparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\igeminiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\igeminiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\ithemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\ithemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\ithemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\ithemerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\repository\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\repository\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\services\\geminiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,76 +91,36 @@
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\repository\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\repository\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\tokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\tokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\validator\\createthemedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\validator\\createthemedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\controllers\\geminiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\controllers\\geminiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\validator\\createtaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\validator\\createtaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\dtos\\createthemedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\dtos\\createthemedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\igeminiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\igeminiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\geminisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\geminisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\forfuturesobes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\forfuturesobes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\interfaces\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\interfaces\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\validator\\createthemedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\validator\\createthemedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\domain\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\domain\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\mapping\\taskmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\mapping\\taskmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\forfuturesobes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|solutionrelative:forfuturesobes\\forfuturesobes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\mapping\\thememappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,215 +158,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Program.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Program.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Program.cs",
-              "RelativeToolTip": "ForFutureSobes\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowC8AAAARAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "IGeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IGeminiService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiService.cs",
+              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IGeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:11:31.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThemesController.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\ThemesController.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\ThemesController.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\ThemesController.cs",
-              "RelativeToolTip": "ForFutureSobes\\Controllers\\ThemesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:52:00.357Z",
+              "WhenOpened": "2025-10-06T19:39:52.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ThemeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\ThemeRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Repository\\ThemeRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\ThemeRepository.cs",
-              "RelativeToolTip": "ForFutureSobes\\Repository\\ThemeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwBQAAAAJAAAAAAAAAA==",
+              "Title": "IGeminiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
+              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T16:13:01.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IThemeService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IThemeService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeService.cs",
-              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IThemeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:35:07.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IThemeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IThemeRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeRepository.cs",
-              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IThemeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T16:11:51.446Z",
+              "WhenOpened": "2025-10-06T19:40:09.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ThemeService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ThemeService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\ThemeService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ThemeService.cs",
-              "RelativeToolTip": "ForFutureSobes\\Services\\ThemeService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Title": "PriorityParameterFilter.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "RelativeToolTip": "ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:36:24.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GeminiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiConfig.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\GeminiConfig.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiConfig.cs",
-              "RelativeToolTip": "ForFutureSobes\\Services\\GeminiConfig.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:40:42.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateTaskDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
-              "RelativeToolTip": "ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T17:40:45.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\appsettings.json",
-              "RelativeDocumentMoniker": "ForFutureSobes\\appsettings.json",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\appsettings.json",
-              "RelativeToolTip": "ForFutureSobes\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T19:26:05.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TokenMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\TokenMiddleware.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\TokenMiddleware.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\TokenMiddleware.cs",
-              "RelativeToolTip": "ForFutureSobes\\TokenMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:16:14.834Z",
+              "WhenOpened": "2025-10-07T23:26:51.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ManageTaskService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ManageTaskService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\ManageTaskService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ManageTaskService.cs",
-              "RelativeToolTip": "ForFutureSobes\\Services\\ManageTaskService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAEwDYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T15:19:53.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GeminiService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\GeminiService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiService.cs",
-              "RelativeToolTip": "ForFutureSobes\\Services\\GeminiService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowB0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:40:31.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AllTasksController.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "RelativeToolTip": "ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T16:39:48.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DTOs\\ResponseDTO.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\DTOs\\ResponseDTO.cs",
               "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DTOs\\ResponseDTO.cs",
               "RelativeToolTip": "ForFutureSobes\\DTOs\\ResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T16:18:57.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateThemeDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
-              "RelativeToolTip": "ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T19:18:25.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Theme.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\Theme.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Domain\\Theme.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\Theme.cs",
-              "RelativeToolTip": "ForFutureSobes\\Domain\\Theme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T17:28:42.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "CreateThemeDTO.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DTOs\\CreateThemeDTO.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\DTOs\\CreateThemeDTO.cs",
@@ -375,150 +223,279 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GeminiApiController.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "RelativeToolTip": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:37:53.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "CreateTaskDTO.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DTOs\\CreateTaskDTO.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\DTOs\\CreateTaskDTO.cs",
               "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DTOs\\CreateTaskDTO.cs",
               "RelativeToolTip": "ForFutureSobes\\DTOs\\CreateTaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T19:42:07.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ForFutureSobesDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
-              "RelativeToolTip": "ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:20:21.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Repository\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\TaskRepository.cs",
-              "RelativeToolTip": "ForFutureSobes\\Repository\\TaskRepository.cs",
-              "ViewState": "AgIAADYAAAAAaIC8PXPkvwgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:44:55.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskService.cs",
-              "RelativeToolTip": "ForFutureSobes\\Interfaces\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T15:20:56.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IGeminiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
-              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IGeminiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:40:09.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\ITaskRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskRepository.cs",
-              "RelativeToolTip": "ForFutureSobes\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:46:40.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GeminiSettings.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\GeminiSettings.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Domain\\GeminiSettings.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\GeminiSettings.cs",
-              "RelativeToolTip": "ForFutureSobes\\Domain\\GeminiSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:38:26.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IGeminiService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IGeminiService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IGeminiService.cs",
-              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IGeminiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T19:39:52.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 6,
               "Title": "TaskEntity.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\TaskEntity.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Domain\\TaskEntity.cs",
               "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\TaskEntity.cs",
               "RelativeToolTip": "ForFutureSobes\\Domain\\TaskEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T17:25:46.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TaskMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
-              "RelativeToolTip": "ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GeminiSettings.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\GeminiSettings.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Domain\\GeminiSettings.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\GeminiSettings.cs",
+              "RelativeToolTip": "ForFutureSobes\\Domain\\GeminiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T16:24:25.169Z",
+              "WhenOpened": "2025-10-06T19:38:26.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 4,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\Enum\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Domain\\Enum\\TaskPriority.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\Enum\\TaskPriority.cs",
+              "RelativeToolTip": "ForFutureSobes\\Domain\\Enum\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T23:24:30.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForFutureSobesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
+              "RelativeToolTip": "ForFutureSobes\\Data\\ForFutureSobesDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:20:21.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThemesController.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\ThemesController.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\ThemesController.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\ThemesController.cs",
+              "RelativeToolTip": "ForFutureSobes\\Controllers\\ThemesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:52:00.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeminiApiController.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "RelativeToolTip": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:37:53.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllTasksController.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "RelativeToolTip": "ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:39:48.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "ForFutureSobes\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:46:40.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IThemeService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeService.cs",
+              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:35:07.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IThemeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\IThemeRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\IThemeRepository.cs",
+              "RelativeToolTip": "ForFutureSobes\\Interfaces\\IThemeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:11:51.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Repository\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\TaskRepository.cs",
+              "RelativeToolTip": "ForFutureSobes\\Repository\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:44:55.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThemeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\ThemeRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Repository\\ThemeRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Repository\\ThemeRepository.cs",
+              "RelativeToolTip": "ForFutureSobes\\Repository\\ThemeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:13:01.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GeminiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiConfig.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\GeminiConfig.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiConfig.cs",
+              "RelativeToolTip": "ForFutureSobes\\Services\\GeminiConfig.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:40:42.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\GeminiService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\GeminiService.cs",
+              "RelativeToolTip": "ForFutureSobes\\Services\\GeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:40:31.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ManageTaskService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\ManageTaskService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ManageTaskService.cs",
+              "RelativeToolTip": "ForFutureSobes\\Services\\ManageTaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:19:53.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ThemeService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Services\\ThemeService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Services\\ThemeService.cs",
+              "RelativeToolTip": "ForFutureSobes\\Services\\ThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:36:24.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\appsettings.json",
+              "RelativeDocumentMoniker": "ForFutureSobes\\appsettings.json",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\appsettings.json",
+              "RelativeToolTip": "ForFutureSobes\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T19:26:05.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateTaskDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
+              "RelativeToolTip": "ForFutureSobes\\Validator\\CreateTaskDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:40:45.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Program.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Program.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Program.cs",
+              "RelativeToolTip": "ForFutureSobes\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:11:31.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "ForFutureSobes\\Interfaces\\ITaskService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:20:56.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ForFutureSobes.csproj",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\ForFutureSobes.csproj",
               "RelativeDocumentMoniker": "ForFutureSobes\\ForFutureSobes.csproj",
@@ -526,12 +503,47 @@
               "RelativeToolTip": "ForFutureSobes\\ForFutureSobes.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-02T14:43:46.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T14:43:46.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateThemeDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
+              "RelativeToolTip": "ForFutureSobes\\Validator\\CreateThemeDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:18:25.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Theme.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\Theme.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Domain\\Theme.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Domain\\Theme.cs",
+              "RelativeToolTip": "ForFutureSobes\\Domain\\Theme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:28:42.96Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "TaskMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
+              "RelativeToolTip": "ForFutureSobes\\Mapping\\TaskMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T16:24:25.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "ThemeMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Mapping\\ThemeMappingProfile.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Mapping\\ThemeMappingProfile.cs",
@@ -539,12 +551,11 @@
               "RelativeToolTip": "ForFutureSobes\\Mapping\\ThemeMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T16:00:20.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T16:00:20.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "20250929174539_AddNewModels_v2.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Migrations\\20250929174539_AddNewModels_v2.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Migrations\\20250929174539_AddNewModels_v2.cs",
@@ -552,12 +563,11 @@
               "RelativeToolTip": "ForFutureSobes\\Migrations\\20250929174539_AddNewModels_v2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T17:45:39.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T17:45:39.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20251001145623_addedPriorityTo_TaskEntity_Model.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.cs",
@@ -565,12 +575,11 @@
               "RelativeToolTip": "ForFutureSobes\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T14:56:23.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T14:56:23.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "20250822193239_Initial Migration.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Migrations\\20250822193239_Initial Migration.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Migrations\\20250822193239_Initial Migration.cs",
@@ -578,12 +587,11 @@
               "RelativeToolTip": "ForFutureSobes\\Migrations\\20250822193239_Initial Migration.cs",
               "ViewState": "AgIAAFcAAACAEs/XFRshwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:32:39.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T19:32:39.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "20250929190037_RemoveOldThemeTables.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Migrations\\20250929190037_RemoveOldThemeTables.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Migrations\\20250929190037_RemoveOldThemeTables.cs",
@@ -591,8 +599,7 @@
               "RelativeToolTip": "ForFutureSobes\\Migrations\\20250929190037_RemoveOldThemeTables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:00:38.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T19:00:38.086Z"
             }
           ]
         }

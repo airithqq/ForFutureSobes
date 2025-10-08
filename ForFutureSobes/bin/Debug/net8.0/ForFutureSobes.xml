@@ -34,6 +34,21 @@
             Delete all tasks that belong`s to current theme
             </summary>
         </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetAllUncompleted">
+            <summary>
+            Get all uncompleted tasks by user
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetByPriority(System.String)">
+            <summary>
+            Get task`s by priorities, available via the drop-down menu
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.GeminiApiController.Ask(System.String)">
+            <summary>
+            Ask Gemini about task that not completed 
+            </summary>
+        </member>
         <member name="M:ForFutureSobes.Controllers.ThemesController.GetAllThemes">
             <summary>
             Get all existing themes
@@ -41,7 +56,7 @@
         </member>
         <member name="M:ForFutureSobes.Controllers.ThemesController.CreateTheme(ForFutureSobes.DTOs.CreateThemeDTO)">
             <summary>
-            Create new unic theme
+            Create new unique theme
             </summary>
         </member>
         <member name="M:ForFutureSobes.Controllers.ThemesController.DeleteAsync(System.String)">

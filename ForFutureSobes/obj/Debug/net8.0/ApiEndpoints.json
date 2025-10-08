@@ -91,6 +91,32 @@
   },
   {
     "ContainingType": "ForFutureSobes.Controllers.TasksController",
+    "Method": "GetByPriority",
+    "RelativePath": "api/v1/task/GetTaskByPriority",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "priority",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForFutureSobes.Controllers.TasksController",
+    "Method": "GetAllUncompleted",
+    "RelativePath": "api/v1/task/GetUncompletedTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForFutureSobes.Controllers.TasksController",
     "Method": "Update",
     "RelativePath": "api/v1/task/UpdateExistingTheme",
     "HttpMethod": "PUT",

@@ -11,7 +11,6 @@ namespace ForFutureSobes.Data
         }
 
         public DbSet<TaskEntity> TaskEntities {get;set;}
-
         public DbSet<Theme> Themes { get; set; }
     }
 }

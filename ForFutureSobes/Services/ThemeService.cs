@@ -1,7 +1,6 @@
 ﻿using ForFutureSobes.Domain;
 using ForFutureSobes.DTOs;
 using ForFutureSobes.Interfaces;
-using ForFutureSobes.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ForFutureSobes.Services

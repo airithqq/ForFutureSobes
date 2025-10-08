@@ -3,16 +3,13 @@ using ForFutureSobes.Services;
 using Microsoft.EntityFrameworkCore;
 using ForFutureSobes.Interfaces;
 using ForFutureSobes.Mapping;
-using ForFutureSobes.DTOs;
-using AutoMapper;
 using ForFutureSobes.Domain;
 using ForFutureSobes.Repository;
-using Microsoft.OpenApi.Models;
 using System.Reflection;
 using FluentValidation.AspNetCore;
 using ForFutureSobes.Validator;
 using FluentValidation;
-
+using ForFutureSobes.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,22 +21,24 @@ builder.Services.AddSwaggerGen(options =>
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     options.IncludeXmlComments(xmlPath);
 });
-
-
+builder.Services.AddSwaggerGen(c =>
+{
+    c.ParameterFilter<PriorityParameterFilter>();
+});
 
 var connectionString = builder.Configuration.GetConnectionString("ForFutureSobesConnectionString");
-builder.Services.AddScoped< ITaskRepository, TaskRepository>();
-builder.Services.AddScoped< ITaskService, ManageTaskService> ();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<ITaskService, ManageTaskService> ();
 builder.Services.AddScoped<IThemeRepository, ThemeRepository>();
-builder.Services.AddHttpClient<IGeminiService, GeminiService>();
 builder.Services.AddScoped<IGeminiConfig, GeminiConfig>();
 builder.Services.AddScoped<IThemeService, ThemeService>();
+
+builder.Services.AddHttpClient<IGeminiService, GeminiService>();
 builder.Services.AddFluentValidationAutoValidation();
 
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateTaskDtoValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateThemeDtoValidator>();
-
 
 builder.Services.AddSingleton(sp =>
     builder.Configuration.GetSection("Gemini").Get<GeminiSettings>());
@@ -50,9 +49,7 @@ options.UseMySql(
 
 ));
 
-
 builder.Services.AddAutoMapper(typeof(TaskMappingProfile).Assembly);
-
 
 var app = builder.Build();
 

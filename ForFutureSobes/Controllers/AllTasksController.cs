@@ -1,12 +1,8 @@
-﻿using System.Runtime.CompilerServices;
-using ForFutureSobes.Interfaces;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
 using ForFutureSobes.Domain;
 using ForFutureSobes.DTOs;
-using Microsoft.EntityFrameworkCore;
-using AutoMapper;
-using System.Net;
+using ForFutureSobes.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ForFutureSobes.Controllers
 {
@@ -16,7 +12,6 @@ namespace ForFutureSobes.Controllers
     {
         private readonly ITaskService _taskService;
         private readonly IMapper _mapper;
-
         public TasksController(ITaskService taskService, IMapper mapper)
         {
             _taskService = taskService;
@@ -24,17 +19,13 @@ namespace ForFutureSobes.Controllers
             _mapper = mapper;
         }
 
-        
         /// <summary>
         /// Get all existing tasks
         /// </summary>
-
         [HttpGet("GetAllTasks")]
         public async Task<IActionResult> GetAll()
         {
-          
-            var tasks = await _taskService.GetAllTasksAsync();
-            var response = _mapper.Map<List<ResponseDTO>>(tasks);
+            var response = await _taskService.GetAllTasksAsync();
             return Ok(response);
 
         }
@@ -56,7 +47,7 @@ namespace ForFutureSobes.Controllers
         [HttpGet("GetById")]
         public async Task<IActionResult> GetById(int id)
         {
-            
+
             var task = await _taskService.GetTaskByIdAsync(id);
             if (task == null) return NotFound();
             var response = _mapper.Map<ResponseDTO>(task);
@@ -66,18 +57,17 @@ namespace ForFutureSobes.Controllers
         /// <summary>
         /// Create new task for existing theme
         /// </summary>
-
         [HttpPost("CreateNewTask")]
         public async Task<IActionResult> Create([FromBody] CreateTaskDTO dto)
         {
             var task = _mapper.Map<TaskEntity>(dto);
-            
+
             var created = await _taskService.CreateTaskAsync(task, dto.ThemeName);
             if (created == null) return BadRequest("Invalid theme");
+
             var response = _mapper.Map<ResponseDTO>(created);
-        
-            return CreatedAtAction(nameof(GetById), new { id = response.Id, themeName = dto.ThemeName, isCompleted = response.IsCompleted}, response);
-            
+            return CreatedAtAction(nameof(GetById), new { id = response.Id, themeName = dto.ThemeName, isCompleted = response.IsCompleted }, response);
+
         }
 
         /// <summary>
@@ -92,7 +82,7 @@ namespace ForFutureSobes.Controllers
             if (task == null) return NotFound();
 
             var response = _mapper.Map<ResponseDTO>(task);
-            return Ok(response); 
+            return Ok(response);
         }
 
         /// <summary>
@@ -106,5 +96,26 @@ namespace ForFutureSobes.Controllers
 
             return Ok();
         }
+
+        /// <summary>
+        /// Get all uncompleted tasks by user
+        /// </summary>
+        [HttpGet("GetUncompletedTasks")]
+        public async Task<IActionResult> GetAllUncompleted()
+        {
+            var result = await _taskService.GetAllUncompletedTasksAsync();
+            if (result == null) return NotFound();
+            return Ok(result);
+        }
+        /// <summary>
+        /// Get task`s by priorities, available via the drop-down menu
+        /// </summary>
+        [HttpGet("GetTaskByPriority")]
+        public async Task<IActionResult> GetByPriority([FromQuery] string priority)
+        {
+            var tasks = await _taskService.GetTasksByPrority(priority);
+            return Ok(tasks);
+        }
+
     }
 }

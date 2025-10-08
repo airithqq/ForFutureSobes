@@ -1,7 +1,5 @@
-﻿using ForFutureSobes.Services;
-using Microsoft.AspNetCore.Http;
+﻿using ForFutureSobes.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using ForFutureSobes.Interfaces;
 
 namespace ForFutureSobes.Controllers
 {
@@ -10,12 +8,13 @@ namespace ForFutureSobes.Controllers
     public class GeminiApiController : ControllerBase
     {
         private readonly IGeminiService _gemini;
-
         public GeminiApiController(IGeminiService gemini)
         {
             _gemini = gemini;
         }
-
+        /// <summary>
+        /// Ask Gemini about task that not completed 
+        /// </summary>
         [HttpPost("ask")]
         public async Task<IActionResult> Ask([FromBody] string request)
         {

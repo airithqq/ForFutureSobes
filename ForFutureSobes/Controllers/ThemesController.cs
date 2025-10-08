@@ -22,7 +22,9 @@ namespace ForFutureSobes.Controllers
         [HttpGet("GetAllThemes")]
         public async Task<List<Theme>> GetAllThemes() => await _themeService.GetAllThemesAsync();
 
-
+        /// <summary>
+        /// Get theme by id
+        /// </summary>
         [HttpGet("GetThemeById")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -32,33 +34,29 @@ namespace ForFutureSobes.Controllers
 
             return Ok(theme);
         }
-   
+
         /// <summary>
-        /// Create new unic theme
+        /// Create new unique theme
         /// </summary>
         [HttpPost("CreateNewTheme")]
         public async Task<IActionResult> CreateTheme([FromBody] CreateThemeDTO dto)
         {
             if (dto == null)
                 return BadRequest("Request body cannot be empty");
-
             if (string.IsNullOrWhiteSpace(dto.Name))
                 return BadRequest("Theme name is required");
-
             var theme = await _themeService.CreateThemeAsync(dto);
-
             if (theme == null)
                 return StatusCode(500, "Failed to create theme.");
 
             return CreatedAtAction(nameof(GetById), new { id = theme.Id }, theme);
         }
 
-            /// <summary>
-            /// Delete theme
-            /// </summary>
-            [HttpDelete("Delete")]
-            public async Task DeleteAsync(string themeName) => await _themeService.DeleteThemeAsync(themeName);
+        /// <summary>
+        /// Delete theme
+        /// </summary>
+        [HttpDelete("Delete")]
+        public async Task DeleteAsync(string themeName) => await _themeService.DeleteThemeAsync(themeName);
 
-        
     }
 }

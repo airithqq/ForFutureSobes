@@ -1,13 +1,7 @@
-﻿using ForFutureSobes.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ForFutureSobes.Data;
+﻿using AutoMapper;
 using ForFutureSobes.Domain;
-using AutoMapper;
 using ForFutureSobes.DTOs;
-using ForFutureSobes.Repository;
-using System.Threading.Tasks;
-using Microsoft.OpenApi.Extensions;
+using ForFutureSobes.Interfaces;
 
 namespace ForFutureSobes.Services
 {
@@ -15,19 +9,19 @@ namespace ForFutureSobes.Services
     {
         private readonly IMapper _mapper;
         private readonly ITaskRepository _taskRepository;
-       
-        public ManageTaskService( IMapper mapper, ITaskRepository taskRepository)
+
+        public ManageTaskService(IMapper mapper, ITaskRepository taskRepository)
         {
             _mapper = mapper;
             _taskRepository = taskRepository;
         }
         public async Task<TaskEntity> CreateTaskAsync(TaskEntity task, string themeName) => await _taskRepository.CreateAsync(task, themeName);
-        
+
         public async Task<TaskEntity> GetTaskByIdAsync(int id) => await _taskRepository.GetByIdAsync(id);
-        
+
 
         public async Task<List<TaskEntity>> GetTasksByThemeAsync(string themeName) => await _taskRepository.GetByThemeAsync(themeName);
-   
+
         public async Task<bool> DeleteTaskAsync(string themeName)
         {
             var task = await GetTasksByThemeAsync(themeName);
@@ -36,7 +30,7 @@ namespace ForFutureSobes.Services
         public async Task<TaskEntity> UpdateTaskAsync(int id, TaskEntity updatedTask, string updatedTheme)
         {
             var task = await _taskRepository.GetByIdAsync(id);
-            
+
             task.Title = updatedTask.Title;
             task.Description = updatedTask.Description;
             task.Priority = updatedTask.Priority;
@@ -53,6 +47,22 @@ namespace ForFutureSobes.Services
         {
             var tasks = await _taskRepository.GetAllAsync();
             return _mapper.Map<List<ResponseDTO>>(tasks);
+        }
+
+        public async Task<List<ResponseDTO>> GetAllUncompletedTasksAsync()
+        {
+            var tasks = await _taskRepository.GetAllUncompletedTasksAsync();
+            var response = _mapper.Map<List<ResponseDTO>>(tasks);
+            return response;
+        }
+
+        public async Task<List<ResponseDTO>> GetTasksByPrority(string priority)
+
+        {
+            var tasks = await _taskRepository.GetTasksByPriority(priority);
+            var response = _mapper.Map<List<ResponseDTO>>(tasks);
+            return response;
+
         }
     }
 }

@@ -1,11 +1,9 @@
-﻿using System.Threading.Tasks;
-using ForFutureSobes.Data;
+﻿using ForFutureSobes.Data;
 using ForFutureSobes.Domain;
 using ForFutureSobes.DTOs;
 using ForFutureSobes.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ForFutureSobes.Data;
 
 namespace ForFutureSobes.Repository
 {
@@ -18,16 +16,12 @@ namespace ForFutureSobes.Repository
               _context = context;
         }
 
-       // public async Task<Theme?> GetByNameAsync(string themeName) => await _context.Themes.FirstOrDefaultAsync(x => x.Name == themeName);
-
         public async Task<List<Theme?>> GetAllThemesAsync() => await _context.Themes.ToListAsync();
 
-        public async Task<Theme?> GetByIdAsync(int id)
-        {
-            return await _context.Themes
-                .AsNoTracking()
-                .FirstOrDefaultAsync(t => t.Id == id);
-        }
+        public async Task<Theme?> GetByIdAsync(int id) => await _context.Themes
+                                                            .AsNoTracking()
+                                                            .FirstOrDefaultAsync(t => t.Id == id);
+     
 
         public async Task<Theme> CreateThemeAsync([FromBody] CreateThemeDTO dto)
         {

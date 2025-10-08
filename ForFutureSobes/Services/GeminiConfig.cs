@@ -12,7 +12,6 @@ namespace ForFutureSobes.Services
                 _settings = settings;
         }
 
-
         public string GetUrl()
         {
             var url = $"{_settings.BaseUrl}/{_settings.Version}/models/{_settings.Model}:generateContent?key={_settings.ApiKey}";

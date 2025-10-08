@@ -10,6 +10,7 @@
         "tags": [
           "GeminiApi"
         ],
+        "summary": "Ask Gemini about task that not completed",
         "requestBody": {
           "content": {
             "application/json": {
@@ -190,6 +191,46 @@
         }
       }
     },
+    "/api/v1/task/GetUncompletedTasks": {
+      "get": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Get all uncompleted tasks by user",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/task/GetTaskByPriority": {
+      "get": {
+        "tags": [
+          "Tasks"
+        ],
+        "summary": "Get task`s by priorities, available via the drop-down menu",
+        "parameters": [
+          {
+            "name": "priority",
+            "in": "query",
+            "schema": {
+              "enum": [
+                "Low",
+                "Medium",
+                "High"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/v1/theme/GetAllThemes": {
       "get": {
         "tags": [
@@ -256,7 +297,7 @@
         "tags": [
           "Themes"
         ],
-        "summary": "Create new unic theme",
+        "summary": "Create new unique theme",
         "requestBody": {
           "content": {
             "application/json": {

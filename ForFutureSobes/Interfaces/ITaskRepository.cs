@@ -12,5 +12,7 @@ namespace ForFutureSobes.Interfaces
         Task<TaskEntity?> CreateAsync(TaskEntity task, string themeName);
         Task<bool> DeleteByThemeAsync(List<TaskEntity> tasks);
         Task SaveAsync();
+        Task<List<TaskEntity>> GetAllUncompletedTasksAsync();
+        Task<List<TaskEntity>> GetTasksByPriority(string priority);
     }
 }
