@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForFutureSobes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+675d2f758d382ec60180218758b9fcfd2737dfc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39f7228c564a6a4658cfe9d669f8d99a6cf882a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForFutureSobes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForFutureSobes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,6 +10,7 @@ using FluentValidation.AspNetCore;
 using ForFutureSobes.Validator;
 using FluentValidation;
 using ForFutureSobes.Filters;
+using ForFutureSobes.Configs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,7 @@ builder.Services.AddScoped<ITaskService, ManageTaskService> ();
 builder.Services.AddScoped<IThemeRepository, ThemeRepository>();
 builder.Services.AddScoped<IGeminiConfig, GeminiConfig>();
 builder.Services.AddScoped<IThemeService, ThemeService>();
+builder.Services.AddScoped<IGeminiRepository, GeminiRepository>();
 
 builder.Services.AddHttpClient<IGeminiService, GeminiService>();
 builder.Services.AddFluentValidationAutoValidation();
@@ -49,6 +51,7 @@ options.UseMySql(
 
 ));
 
+builder.Services.AddAutoMapper(typeof(TaskSummaryMappingProfile).Assembly);
 builder.Services.AddAutoMapper(typeof(TaskMappingProfile).Assembly);
 
 var app = builder.Build();

@@ -1,27 +1,45 @@
-﻿using ForFutureSobes.Domain;
-using Microsoft.Extensions.Options;
+﻿using System.Text;
 using System.Text.Json;
-using System.Text;
+using AutoMapper;
+using ForFutureSobes.DTOs;
+using ForFutureSobes.Helper;
 using ForFutureSobes.Interfaces;
+using ForFutureSobes.Repository;
 
 namespace ForFutureSobes.Services
 {
-    public class GeminiService:IGeminiService
+    public class GeminiService : IGeminiService
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<GeminiService> _logger;
         private readonly IGeminiConfig _config;
+        private readonly IMapper _mapper;
+        private readonly IGeminiRepository _geminiRepository;
 
-        public GeminiService(HttpClient httpClient,IGeminiConfig config, ILogger<GeminiService> logger)
+        public GeminiService(HttpClient httpClient, IGeminiConfig config, ILogger<GeminiService> logger, IMapper mapper, IGeminiRepository geminiRepository)
         {
             _httpClient = httpClient;
-            _config = config;   
+            _config = config;
             _logger = logger;
+            _mapper = mapper;
+            _geminiRepository = geminiRepository;
+        }
+
+        public async Task<string> GetTaskSummariesAsync(int taskId)
+        {
+            var task = await _geminiRepository.GetPromptFromTask(taskId);
+
+            if (task is null)
+                throw new KeyNotFoundException($"Task with ID {taskId} not found.");
+
+            var dto = _mapper.Map<TaskSummaryDTO>(task);
+            return PromptBuilder.BuildGeminiPrompt(dto);
+
         }
 
         public async Task<string> SendAsync(string prompt)
         {
-            
+
             _logger.LogInformation("Gemini request URL: {Url}", _config.GetUrl());
 
             var payload = new

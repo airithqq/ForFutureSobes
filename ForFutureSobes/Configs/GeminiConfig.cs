@@ -2,7 +2,7 @@
 using ForFutureSobes.Domain;
 using ForFutureSobes.Interfaces;
 
-namespace ForFutureSobes.Services
+namespace ForFutureSobes.Configs
 {
     public class GeminiConfig:IGeminiConfig
     {

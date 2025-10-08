@@ -19,6 +19,16 @@
             Get task by id
             </summary>
         </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetAllUncompleted">
+            <summary>
+            Get all uncompleted tasks by user
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.TasksController.GetByPriority(System.String)">
+            <summary>
+            Get task`s by priorities, available via the drop-down menu
+            </summary>
+        </member>
         <member name="M:ForFutureSobes.Controllers.TasksController.Create(ForFutureSobes.DTOs.CreateTaskDTO)">
             <summary>
             Create new task for existing theme
@@ -34,17 +44,7 @@
             Delete all tasks that belong`s to current theme
             </summary>
         </member>
-        <member name="M:ForFutureSobes.Controllers.TasksController.GetAllUncompleted">
-            <summary>
-            Get all uncompleted tasks by user
-            </summary>
-        </member>
-        <member name="M:ForFutureSobes.Controllers.TasksController.GetByPriority(System.String)">
-            <summary>
-            Get task`s by priorities, available via the drop-down menu
-            </summary>
-        </member>
-        <member name="M:ForFutureSobes.Controllers.GeminiApiController.Ask(System.String)">
+        <member name="M:ForFutureSobes.Controllers.GeminiApiController.Ask(System.Int32)">
             <summary>
             Ask Gemini about task that not completed 
             </summary>
@@ -52,6 +52,11 @@
         <member name="M:ForFutureSobes.Controllers.ThemesController.GetAllThemes">
             <summary>
             Get all existing themes
+            </summary>
+        </member>
+        <member name="M:ForFutureSobes.Controllers.ThemesController.GetById(System.Int32)">
+            <summary>
+            Get theme by id
             </summary>
         </member>
         <member name="M:ForFutureSobes.Controllers.ThemesController.CreateTheme(ForFutureSobes.DTOs.CreateThemeDTO)">
