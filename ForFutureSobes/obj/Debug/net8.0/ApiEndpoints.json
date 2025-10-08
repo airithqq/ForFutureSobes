@@ -8,6 +8,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "variant",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "taskId",
         "Type": "System.Int32",
         "IsRequired": false

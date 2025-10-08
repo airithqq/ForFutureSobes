@@ -25,7 +25,7 @@ namespace ForFutureSobes.Services
             _geminiRepository = geminiRepository;
         }
 
-        public async Task<string> GetTaskSummariesAsync(int taskId)
+        public async Task<string> GetTaskSummariesAsync(string variant,int taskId)
         {
             var task = await _geminiRepository.GetPromptFromTask(taskId);
 
@@ -33,7 +33,13 @@ namespace ForFutureSobes.Services
                 throw new KeyNotFoundException($"Task with ID {taskId} not found.");
 
             var dto = _mapper.Map<TaskSummaryDTO>(task);
-            return PromptBuilder.BuildGeminiPrompt(dto);
+            if (variant == "Short")
+                return ExtensionMethods.BuildGeminiShortPrompt(dto);
+            else
+            {
+                return ExtensionMethods.BuildGeminiDetailedPrompt(dto);
+            }
+
 
         }
 

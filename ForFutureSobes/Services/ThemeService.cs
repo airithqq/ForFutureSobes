@@ -25,6 +25,5 @@ namespace ForFutureSobes.Services
 
         public async Task DeleteThemeAsync(string themeName) => await _themeRepository.DeleteThemeAsync(themeName);
     
-        
     }
 }

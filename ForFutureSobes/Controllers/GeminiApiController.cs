@@ -18,9 +18,9 @@ namespace ForFutureSobes.Controllers
         /// Ask Gemini about task that not completed 
         /// </summary>
         [HttpPost("ask")]
-        public async Task<IActionResult> Ask(int taskId)
+        public async Task<IActionResult> Ask([FromQuery] string variant, int taskId)
         {
-            string prompt = await _geminiService.GetTaskSummariesAsync(taskId);
+            string prompt = await _geminiService.GetTaskSummariesAsync(variant,taskId);
             var reply = await _geminiService.SendAsync(prompt);
             return Content(reply, "text/html");
         }

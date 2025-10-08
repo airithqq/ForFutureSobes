@@ -17,9 +17,8 @@ namespace ForFutureSobes.Repository
         {
             return await _context.TaskEntities
                      .Include(t => t.Theme)
+                     .Where(t => t.IsCompleted==false)
                      .FirstOrDefaultAsync(t => t.Id == taskId);
-                
-
         }
     }
 }

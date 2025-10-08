@@ -4,19 +4,22 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace ForFutureSobes.Filters
 {
-    public class PriorityParameterFilter : IParameterFilter
+    public class VariantsOfResponseFilter : IParameterFilter
     {
+       
         public void Apply(OpenApiParameter parameter, ParameterFilterContext context)
         {
-            if (parameter.Name == "priority")
+            if (parameter.Name == "variant")
             {
                 parameter.Schema.Enum = new List<IOpenApiAny>
                 {
-                    new OpenApiString("Low"),
-                    new OpenApiString("Middle"),
-                    new OpenApiString("High")
+                    new OpenApiString("Short"),
+                    new OpenApiString("Detailed"),
                 };
             }
         }
     }
 }
+
+
+
