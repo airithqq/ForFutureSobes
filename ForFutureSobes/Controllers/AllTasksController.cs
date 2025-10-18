@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using ForFutureSobes.Domain;
-using ForFutureSobes.DTOs;
-using ForFutureSobes.Interfaces;
+using ForFutureSobes.Application.DTOs;
+using ForFutureSobes.Application.Interfaces;
+using ForFutureSobes.Model.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ForFutureSobes.Controllers
@@ -14,7 +14,6 @@ namespace ForFutureSobes.Controllers
         private readonly IMapper _mapper;
         public TasksController(ITaskService taskService, IMapper mapper)
         {
-            _taskService = taskService;
             _taskService = taskService;
             _mapper = mapper;
         }
@@ -77,15 +76,15 @@ namespace ForFutureSobes.Controllers
         /// Create new task for existing theme
         /// </summary>
         [HttpPost("CreateNewTask")]
-        public async Task<IActionResult> Create([FromBody] CreateTaskDTO dto)
+        public async Task<IActionResult> Create([FromBody] string themeName)
         {
-            var task = _mapper.Map<TaskEntity>(dto);
+            var task = _mapper.Map<TaskEntity>(themeName);
 
-            var created = await _taskService.CreateTaskAsync(task, dto.ThemeName);
+            var created = await _taskService.CreateTaskAsync(task, themeName);
             if (created == null) return BadRequest("Invalid theme");
 
             var response = _mapper.Map<ResponseDTO>(created);
-            return CreatedAtAction(nameof(GetById), new { id = response.Id, themeName = dto.ThemeName, isCompleted = response.IsCompleted }, response);
+            return CreatedAtAction(nameof(GetById), new { id = response.Id, themeName, isCompleted = response.IsCompleted }, response);
 
         }
 
@@ -93,10 +92,10 @@ namespace ForFutureSobes.Controllers
         /// Update existing task and theme
         /// </summary>
         [HttpPut("UpdateExistingTheme")]
-        public async Task<IActionResult> Update(int id, [FromBody] CreateTaskDTO dto)
+        public async Task<IActionResult> Update(int id, string themeName)
         {
-            var updatedTask = _mapper.Map<TaskEntity>(dto);
-            var task = await _taskService.UpdateTaskAsync(id, updatedTask, dto.ThemeName);
+            var updatedTask = _mapper.Map<TaskEntity>(themeName);
+            var task = await _taskService.UpdateTaskAsync(id, updatedTask,themeName);
 
             if (task == null) return NotFound();
 

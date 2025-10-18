@@ -2,7 +2,7 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace ForFutureSobes.Filters
+namespace ForFutureSobes.API.Filters
 {
     public class PriorityParameterFilter : IParameterFilter
     {

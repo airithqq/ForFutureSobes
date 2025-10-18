@@ -1,0 +1,12 @@
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\bin\Debug\net8.0\ForFutureSobes.Domain.deps.json
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\bin\Debug\net8.0\ForFutureSobes.Domain.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\bin\Debug\net8.0\ForFutureSobes.Domain.pdb
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.AssemblyInfoInputs.cache
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.AssemblyInfo.cs
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.sourcelink.json
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\refint\ForFutureSobes.Domain.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ForFutureSobes.Domain.pdb
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Domain\obj\Debug\net8.0\ref\ForFutureSobes.Domain.dll

@@ -1,7 +1,5 @@
-﻿using ForFutureSobes.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using ForFutureSobes.Helper;
+﻿using Microsoft.AspNetCore.Mvc;
+using ForFutureSobes.Application.Interfaces;
 
 namespace ForFutureSobes.Controllers
 {

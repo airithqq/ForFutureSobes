@@ -29,8 +29,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "ForFutureSobes.DTOs.CreateTaskDTO",
+        "Name": "themeName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -134,9 +134,9 @@
         "IsRequired": false
       },
       {
-        "Name": "dto",
-        "Type": "ForFutureSobes.DTOs.CreateTaskDTO",
-        "IsRequired": true
+        "Name": "themeName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -150,9 +150,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "ForFutureSobes.DTOs.CreateThemeDTO",
-        "IsRequired": true
+        "Name": "themeName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -189,7 +189,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[ForFutureSobes.Domain.Theme, ForFutureSobes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ForFutureSobes.Model.Domain.Theme, ForFutureSobes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
