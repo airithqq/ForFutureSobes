@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\forfuturesobes.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\forfuturesobes.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563B971B-6EE5-4D39-BB5C-501FFB8B0217}|ForFutureSobes.Application\\ForFutureSobes.Application.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.application\\forfuturesobes.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{563B971B-6EE5-4D39-BB5C-501FFB8B0217}|ForFutureSobes.Application\\ForFutureSobes.Application.csproj|solutionrelative:forfuturesobes.application\\forfuturesobes.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\forfuturesobes.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\forfuturesobes.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\filters\\variantsofresponsefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\filters\\variantsofresponsefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\filters\\priorityparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\filters\\priorityparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\controllers\\alltaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\controllers\\alltaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\repository\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\repository\\geminirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\repository\\geminirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\forfuturesobes.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\forfuturesobes.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{563B971B-6EE5-4D39-BB5C-501FFB8B0217}|ForFutureSobes.Application\\ForFutureSobes.Application.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.application\\validator\\createthemedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{563B971B-6EE5-4D39-BB5C-501FFB8B0217}|ForFutureSobes.Application\\ForFutureSobes.Application.csproj|solutionrelative:forfuturesobes.application\\dtos\\createthemedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{563B971B-6EE5-4D39-BB5C-501FFB8B0217}|ForFutureSobes.Application\\ForFutureSobes.Application.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.application\\forfuturesobes.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{563B971B-6EE5-4D39-BB5C-501FFB8B0217}|ForFutureSobes.Application\\ForFutureSobes.Application.csproj|solutionrelative:forfuturesobes.application\\forfuturesobes.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\migrations\\20251001145623_addedpriorityto_taskentity_model.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\migrations\\20251001145623_addedpriorityto_taskentity_model.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,20 +147,8 @@
       "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\migrations\\20250929173459_addthememodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\controllers\\alltaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\controllers\\alltaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\filters\\variantsofresponsefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\filters\\variantsofresponsefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\filters\\priorityparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\filters\\priorityparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\controllers\\geminiapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,10 +179,6 @@
       "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\data\\forfuturesobesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EEF6AFDD-BB50-4644-B014-3181D7684031}|ForFutureSobes.Domain\\ForFutureSobes.Domain.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.domain\\model\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF6AFDD-BB50-4644-B014-3181D7684031}|ForFutureSobes.Domain\\ForFutureSobes.Domain.csproj|solutionrelative:forfuturesobes.domain\\model\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -193,10 +197,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes.infrastructure\\migrations\\20250929190037_removeoldthemetables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E85668-E64C-4E1F-9E33-24BE83EF33D2}|ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj|solutionrelative:forfuturesobes.infrastructure\\migrations\\20250929190037_removeoldthemetables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|c:\\users\\airit\\source\\repos\\forfuturesobes\\forfuturesobes\\forfuturesobes.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{260B65BD-E46E-44A1-A72F-0E3B127FB154}|ForFutureSobes\\ForFutureSobes.API.csproj|solutionrelative:forfuturesobes\\forfuturesobes.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -206,7 +206,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -214,99 +214,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ThemeMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:40:23.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GeminiService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\GeminiService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Services\\GeminiService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\GeminiService.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Services\\GeminiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T20:55:48.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ManageTaskService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ManageTaskService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Services\\ManageTaskService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ManageTaskService.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Services\\ManageTaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T20:58:46.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThemeService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ThemeService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Services\\ThemeService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ThemeService.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Services\\ThemeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T01:42:32.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateTaskDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:02:46.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateThemeDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:03:47.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Program.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Program.cs",
               "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Program.cs",
               "RelativeToolTip": "ForFutureSobes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T20:45:06.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ForFutureSobes.Infrastructure",
+              "DocumentIndex": 3,
+              "Title": "ForFutureSobes.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj",
               "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\ForFutureSobes.Infrastructure.csproj",
@@ -318,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "GeminiRepository.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Repository\\GeminiRepository.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Repository\\GeminiRepository.cs",
@@ -326,12 +248,11 @@
               "RelativeToolTip": "ForFutureSobes.Infrastructure\\Repository\\GeminiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:12:22.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T21:12:22.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Repository\\TaskRepository.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Repository\\TaskRepository.cs",
@@ -339,12 +260,11 @@
               "RelativeToolTip": "ForFutureSobes.Infrastructure\\Repository\\TaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:12:33.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T21:12:33.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ThemeRepository.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Repository\\ThemeRepository.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Repository\\ThemeRepository.cs",
@@ -352,12 +272,11 @@
               "RelativeToolTip": "ForFutureSobes.Infrastructure\\Repository\\ThemeRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:13:09.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T21:13:09.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ThemesController.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\ThemesController.cs",
               "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\ThemesController.cs",
@@ -365,116 +284,47 @@
               "RelativeToolTip": "ForFutureSobes\\Controllers\\ThemesController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:14:19.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:14:19.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TaskSummaryMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AllTasksController.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "RelativeToolTip": "ForFutureSobes\\Controllers\\AllTasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:40:19.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:13:33.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TaskMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PriorityParameterFilter.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "RelativeToolTip": "ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:40:13.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:14:58.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GeminiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "VariantsOfResponseFilter.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
+              "RelativeToolTip": "ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:06:46.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:15:14.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ExtensionMethods.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:07:15.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IThemeService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:55:35.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TaskSummaryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:57:52.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:57:31.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateThemeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:52:56.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 2,
               "Title": "ForFutureSobes.Application.csproj",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\ForFutureSobes.Application.csproj",
               "RelativeDocumentMoniker": "ForFutureSobes.Application\\ForFutureSobes.Application.csproj",
@@ -487,280 +337,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:52:38.356Z",
+              "DocumentIndex": 1,
+              "Title": "ForFutureSobes.API.csproj",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\ForFutureSobes.API.csproj",
+              "RelativeDocumentMoniker": "ForFutureSobes\\ForFutureSobes.API.csproj",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\ForFutureSobes.API.csproj",
+              "RelativeToolTip": "ForFutureSobes\\ForFutureSobes.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-02T14:43:46.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:23:57.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20250929190037_RemoveOldThemeTables.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:23:50.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20250929174539_AddNewModels_v2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:23:41.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250929173459_AddThemeModels.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:23:25.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20250822193239_Initial Migration.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:23:14.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20250822193239_Initial Migration.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:00:43.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ForFutureSobesDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:01:17.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AllTasksController.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "RelativeToolTip": "ForFutureSobes\\Controllers\\AllTasksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:13:33.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DependencyInjection.cs",
-              "RelativeToolTip": "ForFutureSobes\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:15:18.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "VariantsOfResponseFilter.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
-              "RelativeToolTip": "ForFutureSobes\\Filters\\VariantsOfResponseFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:15:14.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PriorityParameterFilter.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
-              "RelativeToolTip": "ForFutureSobes\\Filters\\PriorityParameterFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:14:58.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "GeminiApiController.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "RelativeToolTip": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:14:08.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IGeminiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:57:56.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IGeminiService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:00:52.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20250929173459_AddThemeModels.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:01:03.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20250929174539_AddNewModels_v2.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:01:06.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
-              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:00:58.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IThemeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:33:19.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IGeminiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:47:04.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:45:48.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 0,
               "Title": "ForFutureSobesDbContext.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Data\\ForFutureSobesDbContext.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Data\\ForFutureSobesDbContext.cs",
@@ -773,7 +363,391 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateThemeDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Validator\\CreateThemeDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:03:47.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTaskDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Validator\\CreateTaskDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:02:46.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ThemeService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Services\\ThemeService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ThemeService.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Services\\ThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T01:42:32.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ManageTaskService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Services\\ManageTaskService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\ManageTaskService.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Services\\ManageTaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:58:46.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\GeminiService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Services\\GeminiService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Services\\GeminiService.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Services\\GeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:55:48.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThemeMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Mapping\\ThemeMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:40:23.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaskSummaryMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Mapping\\TaskSummaryMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:40:19.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Mapping\\TaskMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:40:13.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GeminiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Configs\\GeminiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:06:46.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Helper\\ExtensionMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:07:15.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IThemeService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\IThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:55:35.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaskSummaryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\TaskSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:57:52.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\ResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:57:31.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateThemeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\CreateThemeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:52:56.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\DTOs\\CreateTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:52:38.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:23:57.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250929190037_RemoveOldThemeTables.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:23:50.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250929174539_AddNewModels_v2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:23:41.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250929173459_AddThemeModels.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:23:25.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250822193239_Initial Migration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:23:14.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250822193239_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250822193239_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:00:43.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ForFutureSobesDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\ForFutureSobesDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:01:17.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\DependencyInjection.cs",
+              "RelativeToolTip": "ForFutureSobes\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:15:18.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GeminiApiController.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "RelativeToolTip": "ForFutureSobes\\Controllers\\GeminiApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:14:08.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IGeminiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\IGeminiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:57:56.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IGeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\IGeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:00:52.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250929173459_AddThemeModels.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929173459_AddThemeModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:01:03.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250929174539_AddNewModels_v2.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929174539_AddNewModels_v2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:01:06.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "ForFutureSobes.Application\\Interfaces\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:00:58.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IThemeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Interfaces\\IThemeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:33:19.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IGeminiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Interfaces\\IGeminiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:47:04.985Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 43,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "ForFutureSobes.Infrastructure\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:45:48.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "Theme.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Domain\\Model\\Theme.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Domain\\Model\\Theme.cs",
@@ -781,12 +755,11 @@
               "RelativeToolTip": "ForFutureSobes.Domain\\Model\\Theme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:05:46.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:05:46.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "TaskEntity.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Domain\\Model\\TaskEntity.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Domain\\Model\\TaskEntity.cs",
@@ -794,12 +767,11 @@
               "RelativeToolTip": "ForFutureSobes.Domain\\Model\\TaskEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:59:41.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T21:59:41.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "GeminiSettings.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Domain\\Model\\GeminiSettings.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Domain\\Model\\GeminiSettings.cs",
@@ -807,12 +779,11 @@
               "RelativeToolTip": "ForFutureSobes.Domain\\Model\\GeminiSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:05:37.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:05:37.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "20251001145623_addedPriorityTo_TaskEntity_Model.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.cs",
@@ -820,12 +791,11 @@
               "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20251001145623_addedPriorityTo_TaskEntity_Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:01:14.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:01:14.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "20250929190037_RemoveOldThemeTables.cs",
               "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.cs",
               "RelativeDocumentMoniker": "ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.cs",
@@ -833,21 +803,7 @@
               "RelativeToolTip": "ForFutureSobes.Infrastructure\\Migrations\\20250929190037_RemoveOldThemeTables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T22:01:08.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ForFutureSobes.csproj",
-              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\ForFutureSobes.API.csproj",
-              "RelativeDocumentMoniker": "ForFutureSobes\\ForFutureSobes.API.csproj",
-              "ToolTip": "C:\\Users\\airit\\source\\repos\\ForFutureSobes\\ForFutureSobes\\ForFutureSobes.API.csproj",
-              "RelativeToolTip": "ForFutureSobes\\ForFutureSobes.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-02T14:43:46.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T22:01:08.946Z"
             }
           ]
         }
