@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "LV0ba/C5EK0EsoE6uCvu7wFn5YwuVQfJIyANeYfGmg8=",
-  "Source": "ForFutureSobes",
-  "BasePath": "_content/ForFutureSobes",
+  "Hash": "rzYqtQlMl42BPv1oKSUtglcoBrywKHA+QyWzezh15fQ=",
+  "Source": "ForFutureSobes.API",
+  "BasePath": "_content/ForFutureSobes.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

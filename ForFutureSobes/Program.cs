@@ -1,16 +1,17 @@
-using ForFutureSobes.Data;
-using ForFutureSobes.Services;
 using Microsoft.EntityFrameworkCore;
-using ForFutureSobes.Interfaces;
-using ForFutureSobes.Mapping;
-using ForFutureSobes.Domain;
-using ForFutureSobes.Repository;
 using System.Reflection;
-using FluentValidation.AspNetCore;
-using ForFutureSobes.Validator;
 using FluentValidation;
-using ForFutureSobes.Filters;
-using ForFutureSobes.Configs;
+using FluentValidation.AspNetCore;
+using ForFutureSobes.API.Filters;
+using ForFutureSobes.Infrastructure.Interfaces;
+using ForFutureSobes.Infrastructure.Repository;
+using ForFutureSobes.Infrastructure.Data;
+using ForFutureSobes.Application.Mapping;
+using ForFutureSobes.Application.Interfaces;
+using ForFutureSobes.Application.Configs;
+using ForFutureSobes.Application.Services;
+using ForFutureSobes.Application.Validator;
+using ForFutureSobes.Model.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,9 +23,14 @@ builder.Services.AddSwaggerGen(options =>
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     options.IncludeXmlComments(xmlPath);
 });
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(p =>
 {
-    c.ParameterFilter<PriorityParameterFilter>();
+    p.ParameterFilter<PriorityParameterFilter>();
+});
+
+builder.Services.AddSwaggerGen(v =>
+{
+    v.ParameterFilter<VariantsOfResponseFilter>();
 });
 
 var connectionString = builder.Configuration.GetConnectionString("ForFutureSobesConnectionString");
@@ -38,7 +44,6 @@ builder.Services.AddScoped<IGeminiRepository, GeminiRepository>();
 builder.Services.AddHttpClient<IGeminiService, GeminiService>();
 builder.Services.AddFluentValidationAutoValidation();
 
-builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateTaskDtoValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateThemeDtoValidator>();
 

@@ -1,6 +1,6 @@
-﻿using ForFutureSobes.Domain;
-using ForFutureSobes.DTOs;
-using ForFutureSobes.Interfaces;
+﻿
+using ForFutureSobes.Application.Interfaces;
+using ForFutureSobes.Model.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ForFutureSobes.Controllers
@@ -39,13 +39,13 @@ namespace ForFutureSobes.Controllers
         /// Create new unique theme
         /// </summary>
         [HttpPost("CreateNewTheme")]
-        public async Task<IActionResult> CreateTheme([FromBody] CreateThemeDTO dto)
+        public async Task<IActionResult> CreateTheme(string themeName)
         {
-            if (dto == null)
+            if (themeName == null)
                 return BadRequest("Request body cannot be empty");
-            if (string.IsNullOrWhiteSpace(dto.Name))
+            if (string.IsNullOrWhiteSpace(themeName))
                 return BadRequest("Theme name is required");
-            var theme = await _themeService.CreateThemeAsync(dto);
+            var theme = await _themeService.CreateThemeAsync(themeName);
             if (theme == null)
                 return StatusCode(500, "Failed to create theme.");
 

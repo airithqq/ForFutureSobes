@@ -44,7 +44,7 @@
             Delete all tasks that belong`s to current theme
             </summary>
         </member>
-        <member name="M:ForFutureSobes.Controllers.GeminiApiController.Ask(System.Int32)">
+        <member name="M:ForFutureSobes.Controllers.GeminiApiController.Ask(System.String,System.Int32)">
             <summary>
             Ask Gemini about task that not completed 
             </summary>

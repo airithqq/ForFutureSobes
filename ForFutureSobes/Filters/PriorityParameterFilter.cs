@@ -2,7 +2,7 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace ForFutureSobes.Filters
+namespace ForFutureSobes.API.Filters
 {
     public class PriorityParameterFilter : IParameterFilter
     {
@@ -13,7 +13,7 @@ namespace ForFutureSobes.Filters
                 parameter.Schema.Enum = new List<IOpenApiAny>
                 {
                     new OpenApiString("Low"),
-                    new OpenApiString("Medium"),
+                    new OpenApiString("Middle"),
                     new OpenApiString("High")
                 };
             }
