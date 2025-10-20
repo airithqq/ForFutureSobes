@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForFutureSobes.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16753fffd10c6bb0566d20ec724ba70daa27fea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fcba0585b73403a5894f91b9475bb53587fef8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForFutureSobes.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForFutureSobes.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

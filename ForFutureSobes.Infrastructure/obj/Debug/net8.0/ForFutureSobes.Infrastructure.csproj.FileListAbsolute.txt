@@ -1,0 +1,16 @@
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\bin\Debug\net8.0\ForFutureSobes.Infrastructure.deps.json
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\bin\Debug\net8.0\ForFutureSobes.Infrastructure.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\bin\Debug\net8.0\ForFutureSobes.Infrastructure.pdb
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\bin\Debug\net8.0\ForFutureSobes.Domain.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\bin\Debug\net8.0\ForFutureSobes.Domain.pdb
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.AssemblyInfo.cs
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.sourcelink.json
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutur.048FBA6A.Up2Date
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\refint\ForFutureSobes.Infrastructure.dll
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ForFutureSobes.Infrastructure.pdb
+C:\Users\airit\source\repos\ForFutureSobes\ForFutureSobes.Infrastructure\obj\Debug\net8.0\ref\ForFutureSobes.Infrastructure.dll
